@@ -13,7 +13,7 @@
 
 public class qus5 {
     void leftRotate(int[] arr, int n, int d) {
-        // code here
+        
          int[] temp = new int[d];
         d = d%n;
         for(int i = 0; i<d; i++){
