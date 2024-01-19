@@ -11,6 +11,10 @@
 // There are 3 odd elements (1, 3, 5)
 // and 2 even elements (2 and 4).
 
+
+// Count odd or even
+
+
 public class qus8 {
     public void countOddEven(int[] arr, int n)
     {

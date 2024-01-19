@@ -12,6 +12,9 @@
 // Last index of  1 in given string is 4.
 
 
+// Last index of 1
+
+
 public class qus9 {
     public int lastIndex( String s) {
         for (int i = s.length() - 1; i >= 0; i--) {
