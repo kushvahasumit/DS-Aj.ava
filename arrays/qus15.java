@@ -1,3 +1,17 @@
+// Reverse an array 
+
+
+// Given an array arr[] of size N and an integer K, the task is to left rotate the array K indexes
+
+// Example 1:
+
+// Input: N = 7, K = 2
+// arr[] = {1, 2, 3, 4, 5, 6, 7}
+// Output: 3 4 5 6 7 1 2
+// Explanation: Rotation of the above 
+// array by 2 will make the output array
+
+
 public class qus15 {
     void leftRotate(long arr[], int k,int n)
     {
