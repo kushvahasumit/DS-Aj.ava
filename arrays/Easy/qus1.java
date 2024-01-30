@@ -9,7 +9,7 @@ package Easy;
 // A[] = {1,2,3,5}
 // Output: 4
 
-
+// Missing number in an array
 
 
 public class qus1 {
