@@ -13,6 +13,8 @@
 
 // Find the smallest and second smallest element in an array
 
+import java.util.Arrays;
+
 public class qus12 {
     public long[] minAnd2ndMin(long a[], long n)  
     {
