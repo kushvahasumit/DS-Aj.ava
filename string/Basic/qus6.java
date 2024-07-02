@@ -11,7 +11,7 @@
 
 
 public class qus6 {
-    public String transform(String s)
+    public static String transform(String s)
     {
              // Split the string into words using whitespace as the delimiter.
         String[] words = s.split("\\s+");
@@ -28,5 +28,11 @@ public class qus6 {
         // Convert the StringBuilder to a string and trim any extra whitespace.
         return result.toString().trim();
         
+    }
+
+    public static void main(String[] args) {
+        String s = "i love programming";
+        String result = transform(s);
+        System.out.print(result);
     }
 }
