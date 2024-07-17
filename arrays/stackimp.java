@@ -1,5 +1,6 @@
 package arrays;
 
+// stack implimentaion 2 pointer & Array
 public class stackimp {
     int[] stack;
     int top;
