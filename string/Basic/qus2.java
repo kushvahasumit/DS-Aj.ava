@@ -10,13 +10,26 @@ public class qus2 {
 
     static boolean idpalin(String str){
           str = str.toLowerCase();
-          for (int i = 0; i <= str.length() / 2; i++) {
-            char start = str.charAt(i);
-            char end = str.charAt(str.length() - 1 - i);
-            if (start != end) {
-                return false;
-            }
-          }
+        //   for (int i = 0; i <= str.length() / 2; i++) {
+        //     char start = str.charAt(i);
+        //     char end = str.charAt(str.length() - 1 - i);
+        //     if (start != end) {
+        //         return false;
+        //     }
+        //   }
+
+        // int i=0;
+        // int j= str.length()-1;
+        // while(i<j){
+        //     char start = str.charAt(i);
+        //     char end = str.charAt(j - i);
+
+        //     if(start != end){
+        //         return false;
+        //     }
+        //     i++;
+        //     j--;
+        // }
 
         return true;
     }

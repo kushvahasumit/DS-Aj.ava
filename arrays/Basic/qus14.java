@@ -8,6 +8,26 @@
 // Output: 3
 // Explaination: 3 occurs three times.
 
+// public static int countodd(int N, int[] arr){
+//         Map<Integer,Integer> map = new HashMap<>();
+        
+//         for(int num : arr){
+//             map.put(num,map.getOrDefault(num,0)+1);
+//         }
+        
+//         for(int key: map.keySet()){
+//             if(map.get(key) % 2 != 0){
+//                 return key;
+//             }
+//         }
+        
+//         return -1;
+//     }
+    
+    
+//     import java.util.HashMap;
+// import java.util.Map;
+
 
 
 public class qus14 {
